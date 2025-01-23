@@ -1,4 +1,6 @@
-secret_word = "banana"
+sets = ["banana", "apple", "burger"]
+
+secret_word = random.choice(sets)
 
 print("Welcome to the Secret Word Game!")
 
